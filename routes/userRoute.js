@@ -8,7 +8,7 @@ router.post('/login', loginUser)
 router.get('/logout', logoutUser)
 router.get('/', getAllUsers)
 router.get('/getuser', Protect, getUserById)
-router.get('/loggedin', loginStatus)
+router.get('/loggedin', loginStatus)x
 router.patch('/update', Protect, updateUser)
 router.patch('/updatepassword', Protect, changePassword)
 router.put('/forgotpassword', Protect, forgotPassword)
